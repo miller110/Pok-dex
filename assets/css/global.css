@@ -1,0 +1,35 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(/IMG/ash.png), url(/IMG/ash2.png);
+    background-size: contain;
+    background-position: top left ,top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:orangered;
+} 
+
+
+.content{
+    padding: 1rem;
+    width: auto;
+    height: 100%;
+    background-color: orangered;
+    border: 5px solid rgb(128, 33, 33);
+}
+
+@media screen and (min-width: 1450px){
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+
+}
+
